@@ -43,7 +43,7 @@ def welcome
   
   def hit?(num)
     prompt_user()
-    input = 's'
+    input = get_user_input()
     if input == 's'
       # return num
     elsif input == 'h'
