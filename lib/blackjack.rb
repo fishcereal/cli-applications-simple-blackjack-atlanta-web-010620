@@ -50,7 +50,7 @@ def welcome
       num+=deal_card()
       return num 
     # elsif input != 's' && input != 'h'
-  elsif input == 'k'
+  
     # else 
       invalid_command()
       prompt_user()
