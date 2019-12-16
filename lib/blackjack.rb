@@ -66,12 +66,12 @@ def welcome
   #####################################################
   
   def runner
-    num = 0 
-    until num > 21 do 
-      welcome() 
-      num = initial_round()
-      hit?(num)
-    end
+    # num = 0 
+    # until num > 21 do 
+    #   welcome() 
+    #   num = initial_round()
+    #   hit?(num)
+    # end
   end
       
   
