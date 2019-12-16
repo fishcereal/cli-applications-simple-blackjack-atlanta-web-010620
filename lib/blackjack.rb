@@ -45,7 +45,6 @@ def welcome
     prompt_user()
     input = get_user_input()
     if input == 's'
-    
     elsif input == 'h'
       num+=deal_card()
       else 
