@@ -64,12 +64,12 @@ def welcome
 # expect(self).to receive(:get_user_input).and_return("s")
   
   def runner
-    # num = 0 
-    # until num > 21 do 
-    #   welcome() 
-    #   num = initial_round()
-    #   hit?(num)
-    # end
+    num = 0 
+    until num > 21 do 
+      welcome() 
+      num = initial_round()
+      hit?(num)
+    end
   end
       
   
