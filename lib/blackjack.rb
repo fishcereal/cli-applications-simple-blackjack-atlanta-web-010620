@@ -51,7 +51,7 @@ def welcome
       return num 
     # elsif input != 's' && input != 'h'
   
-    # else 
+    else 
       invalid_command()
       prompt_user()
       return num
