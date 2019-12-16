@@ -64,6 +64,7 @@ def welcome
     display_card_total(num)
     until num > 21 do 
       hit?(num)
+      return num
     end
   end
       
