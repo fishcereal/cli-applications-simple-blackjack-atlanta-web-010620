@@ -63,9 +63,9 @@ def welcome
     num = initial_round()
     
     until num > 21 do 
-      hit?(num)
       display_card_total(num)
-      
+      hit?(num)
+      return num
     end
   end_game(num)
   end
