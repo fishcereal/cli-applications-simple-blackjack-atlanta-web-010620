@@ -45,13 +45,10 @@ def welcome
     prompt_user()
     input = get_user_input()
     if input == 's'
-      # return num
+    
     elsif input == 'h'
       num+=deal_card()
-      # return num 
-    # elsif input != 's' && input != 'h'
-  
-    else 
+      else 
       invalid_command()
       prompt_user()
     end
