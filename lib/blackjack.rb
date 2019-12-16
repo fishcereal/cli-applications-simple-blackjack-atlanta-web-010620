@@ -49,8 +49,9 @@ def welcome
     elsif input == 'h'
       num+=deal_card()
       return num 
-    else 
-      # elsif input != 's' && input != 'h'
+    # elsif input != 's' && input != 'h'
+  elsif input == 'k'
+    # else 
       invalid_command()
       prompt_user()
       return num
