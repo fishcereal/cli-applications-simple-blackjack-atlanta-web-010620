@@ -64,8 +64,8 @@ def welcome
     
     until num > 21 do 
       hit?(num)
-      return num
       display_card_total(num)
+      return num
     end
   end_game(num)
   end
